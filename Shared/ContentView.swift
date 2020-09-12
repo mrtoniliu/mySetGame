@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    var deck: Deck = Deck()
+    var gameModel: SetGameModel = SetGameModel()
+
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, world!, \(deck.numOfCards)")
             .padding()
     }
 }

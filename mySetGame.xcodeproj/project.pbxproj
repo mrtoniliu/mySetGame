@@ -13,6 +13,16 @@
 		335B56A1250D55D700F857F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B568C250D55D500F857F4 /* ContentView.swift */; };
 		335B56A2250D55D700F857F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335B568D250D55D700F857F4 /* Assets.xcassets */; };
 		335B56A3250D55D700F857F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335B568D250D55D700F857F4 /* Assets.xcassets */; };
+		335B56AD250D562A00F857F4 /* SetGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B56AC250D562A00F857F4 /* SetGameModel.swift */; };
+		335B56AE250D562A00F857F4 /* SetGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B56AC250D562A00F857F4 /* SetGameModel.swift */; };
+		335B56B0250D81F100F857F4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B56AF250D81F100F857F4 /* CardView.swift */; };
+		335B56B1250D81F100F857F4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B56AF250D81F100F857F4 /* CardView.swift */; };
+		335B56B9250D82EA00F857F4 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B56B8250D82EA00F857F4 /* GridLayout.swift */; };
+		335B56BA250D82EA00F857F4 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B56B8250D82EA00F857F4 /* GridLayout.swift */; };
+		335B56BC250D8EB900F857F4 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B56BB250D8EB900F857F4 /* Cardify.swift */; };
+		335B56BD250D8EB900F857F4 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B56BB250D8EB900F857F4 /* Cardify.swift */; };
+		335B56BF250D923300F857F4 /* Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B56BE250D923300F857F4 /* Diamond.swift */; };
+		335B56C0250D923300F857F4 /* Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B56BE250D923300F857F4 /* Diamond.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,11 @@
 		335B569A250D55D700F857F4 /* mySetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		335B569C250D55D700F857F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		335B569D250D55D700F857F4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		335B56AC250D562A00F857F4 /* SetGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameModel.swift; sourceTree = "<group>"; };
+		335B56AF250D81F100F857F4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		335B56B8250D82EA00F857F4 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		335B56BB250D8EB900F857F4 /* Cardify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		335B56BE250D923300F857F4 /* Diamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diamond.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +74,11 @@
 			children = (
 				335B568B250D55D500F857F4 /* mySetGameApp.swift */,
 				335B568C250D55D500F857F4 /* ContentView.swift */,
+				335B56B8250D82EA00F857F4 /* GridLayout.swift */,
+				335B56AF250D81F100F857F4 /* CardView.swift */,
+				335B56BE250D923300F857F4 /* Diamond.swift */,
+				335B56AC250D562A00F857F4 /* SetGameModel.swift */,
+				335B56BB250D8EB900F857F4 /* Cardify.swift */,
 				335B568D250D55D700F857F4 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,8 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335B56BC250D8EB900F857F4 /* Cardify.swift in Sources */,
 				335B56A0250D55D700F857F4 /* ContentView.swift in Sources */,
+				335B56AD250D562A00F857F4 /* SetGameModel.swift in Sources */,
+				335B56BF250D923300F857F4 /* Diamond.swift in Sources */,
+				335B56B0250D81F100F857F4 /* CardView.swift in Sources */,
 				335B569E250D55D700F857F4 /* mySetGameApp.swift in Sources */,
+				335B56B9250D82EA00F857F4 /* GridLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +221,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335B56BD250D8EB900F857F4 /* Cardify.swift in Sources */,
 				335B56A1250D55D700F857F4 /* ContentView.swift in Sources */,
+				335B56AE250D562A00F857F4 /* SetGameModel.swift in Sources */,
+				335B56C0250D923300F857F4 /* Diamond.swift in Sources */,
+				335B56B1250D81F100F857F4 /* CardView.swift in Sources */,
 				335B569F250D55D700F857F4 /* mySetGameApp.swift in Sources */,
+				335B56BA250D82EA00F857F4 /* GridLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
